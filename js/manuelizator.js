@@ -1,4 +1,4 @@
-import {Randomizer} from './randomizer.js';
+import { Randomizer } from './randomizer.js';
 
 export class Manuelizator {
 
@@ -72,10 +72,7 @@ export class Manuelizator {
         });
 
         this._uploadedImage.addEventListener('load', x => {
-
             this._template.src = this._randomizer.getImage();
-
-            
         });
 
 
